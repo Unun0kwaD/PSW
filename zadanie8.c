@@ -8,7 +8,15 @@ odczytane ze standardowego wejścia.*/
 #include <stdio.h>
 #include <ctype.h>
 int main(int argc, char* argv[]){
-    int fd=open(argv[1],O_RDWR);
+    int fd;
+    char dire[100];
+    scanf("%s",&dire);
+    if (argc>1)
+        fd=open(argv[1],O_RDWR);
+    else{
+        scanf("%s",&dire);
+        fd=open(dire,O_RDWR);
+    }
     char c;
     while(read(fd,&c,1)>0){
         if(c<123 && c>96){
