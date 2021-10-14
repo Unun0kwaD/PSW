@@ -10,7 +10,6 @@ odczytane ze standardowego wejścia.*/
 int main(int argc, char* argv[]){
     int fd;
     char dire[100];
-    scanf("%s",&dire);
     if (argc>1)
         fd=open(argv[1],O_RDWR);
     else{
