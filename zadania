@@ -1,0 +1,25 @@
+Pliki – zadania:
+
+++1.  Napisz program kopiujący zawartość pliku o nazwie podanej przez użytkownika
+jako  pierwszy  argument  do  pliku  którego  nazwa  została  podana  jako  drugi
+argument
+++2.  Napisz  program  określający  rozmiar  plików  których  nazwy  zostały  wskazane
+przez użytkownika jako argumenty
+3.  Napisz program odwracający kolejność znaków w każdej linii pliku
+++4.  Napisz program wyszukujący najdłuższą linię w pliku i podający ilość znaków w
+tej linii.
+++5.  Napisz program wypisujący od końca zawartość pliku
+6.  Napisz procedurę kopiowania ostatnich 10 znaków, słów i ostatnich 10 linii pliku
+wskazanego pierwszym argumentem do nowo stworzonego pliku którego nazwa
+została wskazana drugim argumentem
+++7.  Napisz  program  do  rozpoznawania  czy  plik  o  podanej  nazwie  jest  plikiem
+tekstowym  (plik tekstowy zawiera znaki o kodach 0-127 – można w tym celu
+użyć funkcji  isascii)
+8.  Napisz program konwertujący małe litery na duże  w pliku o nazwie wskazanej
+jako  argument.  Jeśli  nazwa  pliku  nie  została  podana,  dane  powinny  zostać
+odczytane ze standardowego wejścia.
+9.  Napisz  program  sprawdzający  czy  zawartość  dwóch  plików  wskazanych
+argumentami jest identyczna
+10. Napisz program, który w pliku o nazwie podanej jako ostatni argument zapisze
+połączoną zawartość wszystkich plików których nazwy zostały podane w linii
+poleceń przed ostatnim argumentem.
