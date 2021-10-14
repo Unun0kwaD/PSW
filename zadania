@@ -15,7 +15,7 @@ została wskazana drugim argumentem
 ++7.  Napisz  program  do  rozpoznawania  czy  plik  o  podanej  nazwie  jest  plikiem
 tekstowym  (plik tekstowy zawiera znaki o kodach 0-127 – można w tym celu
 użyć funkcji  isascii)
-8.  Napisz program konwertujący małe litery na duże  w pliku o nazwie wskazanej
+++8.  Napisz program konwertujący małe litery na duże  w pliku o nazwie wskazanej
 jako  argument.  Jeśli  nazwa  pliku  nie  została  podana,  dane  powinny  zostać
 odczytane ze standardowego wejścia.
 9.  Napisz  program  sprawdzający  czy  zawartość  dwóch  plików  wskazanych
